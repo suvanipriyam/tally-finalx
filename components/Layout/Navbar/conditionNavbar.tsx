@@ -938,7 +938,7 @@ const ConditionNavbar = () => {
             <li className="nav-item-button tally-international">
               <Link href="TALLYINTERNATIONAL/" target="_blank">
                 <img
-                  src="/images/tallyinternational.png"
+                  srcSet="/images/tallyinternational.png"
                   className="tally-international-shake"
                   style={{
                     filter: 'invert(0)',

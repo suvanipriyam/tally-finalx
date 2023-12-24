@@ -233,7 +233,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/mmtc.jpeg"
+                        srcSet="/images/mmtc.jpeg"
                         width="100%"
                         alt="MMTC Limited"
                       />
@@ -245,7 +245,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/altech.jpg"
+                        srcSet="/images/altech.jpg"
                         width="100%"
                         alt="Altech Aluminium"
                       />
@@ -257,7 +257,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/pl.jpeg"
+                        srcSet="/images/pl.jpeg"
                         width="100%"
                         alt="Jindal Group (CP)"
                       />
@@ -269,7 +269,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/maharishiAyurveda.jpeg"
+                        srcSet="/images/maharishiAyurveda.jpeg"
                         width="100%"
                         alt="Maharishi Ayurvedic India"
                       />
@@ -281,7 +281,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/contec global.jpeg"
+                        srcSet="/images/contec global.jpeg"
                         width="100%"
                         alt="Jindal Group (CP)"
                       />
@@ -293,7 +293,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/panasonic.jpeg"
+                        srcSet="/images/panasonic.jpeg"
                         width="100%"
                         alt="Panasonic India Pvt Ltd"
                       />
@@ -305,7 +305,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/classteacher.jpeg"
+                        srcSet="/images/classteacher.jpeg"
                         width="100%"
                         alt="Class Teacher Learning Systems (Mindshapers Tech.)"
                       />
@@ -319,7 +319,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/PCI.jpeg"
+                        srcSet="/images/PCI.jpeg"
                         width="100%"
                         alt="Press Council of India"
                       />
@@ -331,7 +331,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/continental.jpeg"
+                        srcSet="/images/continental.jpeg"
                         width="100%"
                         alt="Continental India Pvt Ltd"
                       />
@@ -343,7 +343,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/easybill.jpeg"
+                        srcSet="/images/easybill.jpeg"
                         width="100%"
                         alt="Easy Bill"
                       />
@@ -355,7 +355,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/genex logistics.jpeg"
+                        srcSet="/images/genex logistics.jpeg"
                         width="100%"
                         alt="Genex Logistics"
                       />
@@ -367,7 +367,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/montain adventures.jpeg"
+                        srcSet="/images/montain adventures.jpeg"
                         width="100%"
                         alt="Mountain Adventures India Pvt Ltd"
                       />
@@ -379,7 +379,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/oscar.jpeg"
+                        srcSet="/images/oscar.jpeg"
                         width="100%"
                         alt="Oscar Group – Noida"
                       />
@@ -391,7 +391,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/imphynyt.jpeg"
+                        srcSet="/images/imphynyt.jpeg"
                         width="100%"
                         alt="Inphynyt Solutions"
                       />
@@ -403,7 +403,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/g4s.jpeg"
+                        srcSet="/images/g4s.jpeg"
                         width="100%"
                         alt="G-4 Mobile Group"
                       />
@@ -415,7 +415,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/bioworld.jpeg"
+                        srcSet="/images/bioworld.jpeg"
                         width="100%"
                         alt="Bioworld Merchandizing"
                       />
@@ -427,7 +427,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/sunderdiamond.jpegg"
+                        srcSet="/images/sunderdiamond.jpegg"
                         width="100%"
                         alt="Sunder Jewellers"
                       />
@@ -439,7 +439,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/minda.jpeg"
+                        srcSet="/images/minda.jpeg"
                         width="100%"
                         alt="Minda Group"
                       />
@@ -451,7 +451,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/safeguard.jpeg"
+                        srcSet="/images/safeguard.jpeg"
                         width="100%"
                         alt="Safegate Airport Systems India Pvt Ltd"
                       />
@@ -463,7 +463,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/shalcot.jpeg"
+                        srcSet="/images/shalcot.jpeg"
                         width="100%"
                         alt="Shalcot Mechanique Pvt Ltd"
                       />
@@ -475,7 +475,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/siemens.jpeg"
+                        srcSet="/images/siemens.jpeg"
                         width="100%"
                         alt="Siemens"
                       />
@@ -487,7 +487,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/dalmia.jpeg"
+                        srcSet="/images/dalmia.jpeg"
                         width="100%"
                         alt="Dalmiya Continental"
                       />
@@ -499,7 +499,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/jindal.jpg"
+                        srcSet="/images/jindal.jpg"
                         width="100%"
                         alt="Jindal Group (CP)"
                       />
@@ -511,7 +511,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="/images/abhyas Institute.jpeg"
+                        srcSet="/images/abhyas Institute.jpeg"
                         width="100%"
                         alt="Abhyas Institute"
                       />

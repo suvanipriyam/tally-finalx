@@ -6,7 +6,7 @@ import Hero from '@components/Index/Hero'
 import Card from 'react-bootstrap/Card'
 import FormComponent from '@components/FormComponent'
 
-function ImageCard({ imageSrc, text }) {
+function ImageCard({ imagesrc, text }) {
   const [isHovered, setIsHovered] = useState(false)
 
   const cardStyle = {
@@ -29,7 +29,7 @@ function ImageCard({ imageSrc, text }) {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <Card.Img variant="top" src={imageSrc} style={imageStyle} />
+      <Card.Img variant="top" src={imagesrc} style={imageStyle} />
       <Card.Body>
         <Card.Title>{text}</Card.Title>
         <Card.Text></Card.Text>
@@ -293,7 +293,7 @@ const tallyinternational = () => {
         <div className="container">
           <div className="row">
             {cards.map((card, index) => {
-              return <ImageCard key={index} imageSrc={card.img} text={card.text} />
+              return <ImageCard key={index} imagesrc={card.img} text={card.text} />
             })}
           </div>
         </div>
@@ -303,7 +303,7 @@ const tallyinternational = () => {
         <div className="container-fluid p-0">
           <div className="row">
             <div className="col-md-12">
-              <img src="images/1.jpg" alt="" width="100%" />
+              <img srcSet="images/1.jpg" alt="" width="100%" />
             </div>
           </div>
         </div>
@@ -434,7 +434,7 @@ const tallyinternational = () => {
           >
             {cards2.map((card, index) => (
               <div key={index} style={{ width: '100%' }}>
-                <ImageCard imageSrc={card.img} text={card.text} />
+                <ImageCard imagesrc={card.img} text={card.text} />
               </div>
             ))}
           </div>
@@ -445,7 +445,7 @@ const tallyinternational = () => {
         <div className="container-fluid p-0">
           <div className="row">
             <div className="col-md-12">
-              <img src="images/2.jpg" alt="" width="100%" />
+              <img srcSet="images/2.jpg" alt="" width="100%" />
             </div>
           </div>
         </div>
@@ -528,58 +528,28 @@ const tallyinternational = () => {
               <div className="row justify-content-between mt-4 mb-4">
                 <div className="col-md-2">
                   <img
-                    src="images/e63174ff4ac3f2805508dfcf503959be.png"
+                    srcSet="images/e63174ff4ac3f2805508dfcf503959be.png"
                     alt=""
                     width="100%"
                   />
                 </div>
                 <div className="col-md-2">
                   <img
-                    src="assets/files/large/b485ba885a40d0e37ede709963f831f9.png"
+                    srcSet="assets/files/large/b485ba885a40d0e37ede709963f831f9.png"
                     alt=""
                     width="100%"
                   />
                 </div>
                 <div className="col-md-2">
                   <img
-                    src="images/10c05092570ef0208eaab3180a48af84.png"
+                    srcSet="images/10c05092570ef0208eaab3180a48af84.png"
                     alt=""
                     width="100%"
                   />
                 </div>
                 <div className="col-md-2">
                   <img
-                    src="images/db709e9f9a3cb6e01887f9bd55878e38.png"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-              </div>
-              <div className="row justify-content-between mt-4 mb-4">
-                <div className="col-md-2">
-                  <img
-                    src="images/af52c79df6fa319d6df2baba08c9563c.png"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-                <div className="col-md-2">
-                  <img
-                    src="images/539110fe85b7f0555cef6fa4b0051270.png"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-                <div className="col-md-2">
-                  <img
-                    src="assets/files/large/479290bc9b10ec7ba74436373409761d.png"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-                <div className="col-md-2">
-                  <img
-                    src="images/020ea635ccce1cb572c0709e5a44c173.png"
+                    srcSet="images/db709e9f9a3cb6e01887f9bd55878e38.png"
                     alt=""
                     width="100%"
                   />
@@ -588,28 +558,28 @@ const tallyinternational = () => {
               <div className="row justify-content-between mt-4 mb-4">
                 <div className="col-md-2">
                   <img
-                    src="images/38a438ea8e18b5aec68697042955c75c.png"
+                    srcSet="images/af52c79df6fa319d6df2baba08c9563c.png"
                     alt=""
                     width="100%"
                   />
                 </div>
                 <div className="col-md-2">
                   <img
-                    src="assets/files/large/28f5ec8650cbc04dc2726ae745ffb508.png"
+                    srcSet="images/539110fe85b7f0555cef6fa4b0051270.png"
                     alt=""
                     width="100%"
                   />
                 </div>
                 <div className="col-md-2">
                   <img
-                    src="images/c008d8d8c8bef6a0296214cbabd8a4df.png"
+                    srcSet="assets/files/large/479290bc9b10ec7ba74436373409761d.png"
                     alt=""
                     width="100%"
                   />
                 </div>
                 <div className="col-md-2">
                   <img
-                    src="images/ea0f576ce1e35de38e167cc1d2c45713.png"
+                    srcSet="images/020ea635ccce1cb572c0709e5a44c173.png"
                     alt=""
                     width="100%"
                   />
@@ -618,28 +588,58 @@ const tallyinternational = () => {
               <div className="row justify-content-between mt-4 mb-4">
                 <div className="col-md-2">
                   <img
-                    src="images/dfa01504bba9426883c9f3c54adf194b.png"
+                    srcSet="images/38a438ea8e18b5aec68697042955c75c.png"
                     alt=""
                     width="100%"
                   />
                 </div>
                 <div className="col-md-2">
                   <img
-                    src="images/43eacce3528f61fcb3c2ea500a36c412.png"
+                    srcSet="assets/files/large/28f5ec8650cbc04dc2726ae745ffb508.png"
                     alt=""
                     width="100%"
                   />
                 </div>
                 <div className="col-md-2">
                   <img
-                    src="images/df99fb80629a3d878eeb0fb05528bcd4.png"
+                    srcSet="images/c008d8d8c8bef6a0296214cbabd8a4df.png"
                     alt=""
                     width="100%"
                   />
                 </div>
                 <div className="col-md-2">
                   <img
-                    src="images/b28c58665ef70c4a551cacbb78851148.png"
+                    srcSet="images/ea0f576ce1e35de38e167cc1d2c45713.png"
+                    alt=""
+                    width="100%"
+                  />
+                </div>
+              </div>
+              <div className="row justify-content-between mt-4 mb-4">
+                <div className="col-md-2">
+                  <img
+                    srcSet="images/dfa01504bba9426883c9f3c54adf194b.png"
+                    alt=""
+                    width="100%"
+                  />
+                </div>
+                <div className="col-md-2">
+                  <img
+                    srcSet="images/43eacce3528f61fcb3c2ea500a36c412.png"
+                    alt=""
+                    width="100%"
+                  />
+                </div>
+                <div className="col-md-2">
+                  <img
+                    srcSet="images/df99fb80629a3d878eeb0fb05528bcd4.png"
+                    alt=""
+                    width="100%"
+                  />
+                </div>
+                <div className="col-md-2">
+                  <img
+                    srcSet="images/b28c58665ef70c4a551cacbb78851148.png"
                     alt=""
                     width="100%"
                   />
@@ -654,7 +654,7 @@ const tallyinternational = () => {
         <div className="container-fluid p-0">
           <div className="row">
             <div className="col-md-12">
-              <img src="assets/files/3.jpg" alt="" width="100%" />
+              <img srcSet="assets/files/3.jpg" alt="" width="100%" />
             </div>
           </div>
         </div>
@@ -681,7 +681,7 @@ const tallyinternational = () => {
             >
               {cards3.map((card, index) => (
                 <div key={index} style={{ width: '100%' }}>
-                  <ImageCard imageSrc={card.img} text={card.text} />
+                  <ImageCard imagesrc={card.img} text={card.text} />
                 </div>
               ))}
             </div>
@@ -693,7 +693,7 @@ const tallyinternational = () => {
         <div className="container-fluid p-0">
           <div className="row">
             <div className="col-md-12">
-              <img src="images/1.jpg" alt="" width="100%" />
+              <img srcSet="images/1.jpg" alt="" width="100%" />
             </div>
           </div>
         </div>

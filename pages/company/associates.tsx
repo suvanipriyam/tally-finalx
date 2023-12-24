@@ -249,7 +249,7 @@ const associates = () => {
                   &amp; Business Development Solutions.
                 </p>
               </div>
-              <img src="/images/team.jpg" width="100%" />
+              <img srcSet="/images/team.jpg" width="100%" />
             </div>
           </div>
         </div>

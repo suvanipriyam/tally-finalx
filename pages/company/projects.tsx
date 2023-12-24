@@ -235,7 +235,7 @@ const projects = () => {
                       <img
                         className="img-fluid rounded-circle box-shadow"
                         alt="image"
-                        src="/images/project_slide1.jpg"
+                        srcSet="/images/project_slide1.jpg"
                         style={{ filter: 'invert(0)' }}
                       />
                       <p>
@@ -267,7 +267,7 @@ const projects = () => {
                       <img
                         className="img-fluid rounded-circle box-shadow"
                         alt="image"
-                        src="/images/safeguard.jpeg"
+                        srcSet="/images/safeguard.jpeg"
                         style={{ filter: 'invert(0)' }}
                       />
                       <p>
@@ -299,7 +299,7 @@ const projects = () => {
                       <img
                         className="img-fluid rounded-circle box-shadow"
                         alt="image"
-                        src="/images/panasonic.jpeg"
+                        srcSet="/images/panasonic.jpeg"
                       />
                       <p>
                         Headquartered in Osaka, Japan, Panasonic Corporation is
@@ -336,7 +336,7 @@ const projects = () => {
                       <img
                         className="img-fluid rounded-circle box-shadow"
                         alt="image"
-                        src="/images/bioworld.jpeg"
+                        srcSet="/images/bioworld.jpeg"
                       />
                       <p>
                         At Bioworld, we make stuff – all kinds of stuff. That’s
@@ -370,7 +370,7 @@ const projects = () => {
                       <img
                         className="img-fluid rounded-circle box-shadow"
                         alt="image"
-                        src="/images/contec.jpeg"
+                        srcSet="/images/contec.jpeg"
                       />
                       <p>
                         stablished in 1984 and headquartered in London, the
@@ -430,7 +430,7 @@ const projects = () => {
                       <img
                         className="img-fluid rounded-circle box-shadow"
                         alt="image"
-                        src="/images/pearey.jpeg"
+                        srcSet="/images/pearey.jpeg"
                       />
                       <p>
                         Manufacturers Of Dass Hydros, Dass Jones Diesel
@@ -464,7 +464,7 @@ const projects = () => {
                       <img
                         className="img-fluid rounded-circle box-shadow"
                         alt="image"
-                        src="/images/maharishi.jpeg"
+                        srcSet="/images/maharishi.jpeg"
                       />
                       <p>
                         The origin of Maharishi Ayurveda dates back to 1980,

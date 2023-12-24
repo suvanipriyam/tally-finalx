@@ -254,7 +254,7 @@ const about = () => {
                   <div className="position-relative">
                     <img
                       className="img-fluid rounded box-shadow w-100"
-                      src="/images/team.jpg"
+                      srcSet="/images/team.jpg"
                       alt="Tally Academy Glow IPS-Delhi"
                     />
                   </div>

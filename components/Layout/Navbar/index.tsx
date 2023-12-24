@@ -99,7 +99,7 @@ export const Navbar: FC = () => {
                   // style={{ height: 216, width: 216 }}
                   width={216}
                   height={216}
-                  src="/logoss-removebg-preview.png"
+                  srcSet="/logoss-removebg-preview.png"
                   className={styles['navbar-logo']}
                   alt="Navbar Logo"
                 />
@@ -129,7 +129,7 @@ export const Navbar: FC = () => {
                     <div className="col-md-4">
                       <Link href="/tallyinternational">
                         <img
-                          src="/images/banner/tallyinternational.png"
+                          srcSet="/images/banner/tallyinternational.png"
                           className="tally-international-shake d-none d-md-flex "
                           style={{ width: '10rem', marginLeft: '4rem' }}
                         />
